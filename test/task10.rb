@@ -1,5 +1,3 @@
- 
-
-(1..10).each do |i|
-	print("#{i}\n")
-end	
+ (1..10).each do |i|
+	puts i
+end
