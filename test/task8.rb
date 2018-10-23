@@ -1,4 +1,3 @@
-
 for morning in 1..10
-	print ("おはよう\n")
+	puts 'おはよう'
 end

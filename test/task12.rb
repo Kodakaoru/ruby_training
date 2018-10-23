@@ -1,8 +1,7 @@
-
-
 (1..30).each do |num|
 	if num % 3 == 0
-	print ("#{num}" + " は3の倍数です。\n")
- else print ("#{num}\n")
- end
+		puts "#{num}は3の倍数です。"
+ 	else
+		puts num
+ 	end
 end
