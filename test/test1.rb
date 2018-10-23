@@ -5,5 +5,7 @@
  	elsif i % 5 == 0
  		print ("Buzz,")
  	elsif i % 15 == 0
- 	else print ("#{i},")
+ 	else
+ 		print ("#{i},")
+ 	end
 end
