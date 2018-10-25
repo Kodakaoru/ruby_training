@@ -1,6 +1,5 @@
-def add(name)
-	return (name + '様')
+def nametitle(name)
+	return name + '様'
 end
+puts nametitle('田中')
 
-nametitle = add('田中')
-print nametitle
